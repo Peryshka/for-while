@@ -22,8 +22,11 @@ if(enteredNumber >= 0) {
 /*
 Напишите цикл, который за 7 вызовов console.log выводит такой треугольник:
 * */
+let star="#";
+while (star.length <= 7) {
+    console.log(star + "\n");
+    star += "#";
+}
 /*
-let star = '#';
-for(let i =1;i <= 7; i++) {
-  console.log(star);
-}*/
+
+*/
